@@ -1,0 +1,15 @@
+INDEX - PÁGINA INICIAL
+
+Nessa página é possível consultar os heróis cadastrados no banco. Clicando no ícone de cor branca, na header da tabela,
+é possível cadastrar um novo herói no banco, informando seu nome, descrição e poderes.
+Ao lado de cada item da tabela, há dois ícones. Clicando no verde, é possível editar as informações cadastradas. Clicando
+no vermelho, excluir o herói referente à linha.
+Para realizar pesquisas, clique no campo "Pesquisar poderes" acima da tabela, na página inicial. A pesquisa retornará
+o super-herói que possui tal poder e os demais poderes.
+
+METODOLOGIA
+
+Para desenvolvimento desse teste foram utilizadas as linguagens PHP, HTML e um arquivo em JavaScript. A parte visual
+foi desenvolvida através de códigos CSS e do framework Bootstrap. Para armazeamento de dados, optou-se por utilizar
+a plataforma online Free Remote MySQL, onde foi criado o banco. O nome de usuário, do banco de dados e senha são geradas
+pela plataforma. A IDE utilizada para programar foi o Visual Studio Code.

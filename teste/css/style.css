@@ -1,0 +1,93 @@
+    body{
+        background-color: black !important;
+    }
+    
+    li{
+        color: white;
+        font-family: 'Titan One', cursive;
+        font-size: 40px;
+    }
+
+    #menu ul {
+        padding:0px;
+        margin:0px;
+        background-image: url("../images/background.jpg") !important;
+        list-style:none;
+        height: 90px;
+    }
+    
+    #menu ul li a {
+        padding: 2px 10px;
+        display: inline-block;
+    
+        /* visual do link */
+        background-color:#EDEDED;
+        color: rgb(153, 145, 145);
+        text-decoration: none;
+        border-bottom:3px solid #EDEDED;
+    }
+
+    tr:hover{
+        background-color:rgb(33, 33, 33) !important;
+    }
+
+    th,tr{
+        color: white;
+    }
+
+    a:hover{
+        color: black;
+    }
+    
+    a{
+        background-color: black;
+    }
+
+    .form-style-8, label{
+        font-family: ' Helvetica', sans-serif;;
+        width: 500px;
+        background: black;
+        color: white;
+    }
+
+
+    .form-style-8 input[type="text"],
+    .form-style-8 input[type="search"]
+    {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        display: block;
+        width: 100%;
+        border: none;
+        border-bottom: white;
+        margin-bottom: 10px;
+        font: 16px Arial, Helvetica, sans-serif;
+        height: 45px;
+        margin: 0px !important;
+    }
+
+    .form-style-8 input[type="button"], 
+    .form-style-8 input[type="submit"]{
+        -moz-box-shadow: inset 0px 1px 0px 0px black;
+        -webkit-box-shadow: inset 0px 1px 0px 0px black;
+        box-shadow: inset 0px 1px 0px 0px black;
+        background-color: rgb(34, 33, 33);
+        border: 1px solid black;
+        display: inline-block;
+        cursor: pointer;
+        color: white;
+        font-family: ' Helvetica', sans-serif;
+        font-size: 14px;
+        padding: 8px 18px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .form-style-8 input[type="button"]:hover, 
+    .form-style-8 input[type="submit"]:hover {
+        background:linear-gradient(to bottom, rgb(44, 44, 44) 5%, #292929 100%);
+        background-color: rgb(232, 37, 37);
+    }
+
+   
